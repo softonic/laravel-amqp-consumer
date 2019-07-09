@@ -8,7 +8,7 @@ Laravel Amqp Consumer
 [![Quality Score](https://img.shields.io/scrutinizer/g/softonic/laravel-amqp-consumer.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/laravel-amqp-consumer)
 [![Total Downloads](https://img.shields.io/packagist/dt/softonic/laravel-amqp-consumer.svg?style=flat-square)](https://packagist.org/packages/softonic/laravel-amqp-consumer)
 
-Laravel package to handle the consumption of SOA ecosystem events.
+Laravel package to handle the consumption of AMQP messages.
 
 Installation
 -------
