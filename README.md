@@ -21,7 +21,7 @@ composer require softonic/laravel-amqp-consumer
 Documentation
 -------
 
-It is possible to configure the basic AMQP information, you can check it in `vendor/softonic/laravel-amqp-consumer/config/amqp-consumer.php`
+It is possible to configure the basic AMQP information, you can check it in `vendor/softonic/laravel-amqp-consumer/config/amqp-consumer.php`.
 
 Testing
 -------
