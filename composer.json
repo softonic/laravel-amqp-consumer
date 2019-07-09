@@ -1,0 +1,46 @@
+{
+    "name": "softonic/laravel-amqp-consumer",
+    "type": "library",
+    "description": "Laravel Amqp Consumer",
+    "keywords": ["softonic", "laravel", "amqp", "consumer"],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/softonic/laravel-amqp-consumer",
+    "support": {
+        "issues": "https://github.com/softonic/laravel-amqp-consumer/issues"
+    },
+    "require": {
+        "php": ">=7.1",
+        "bschmitt/laravel-amqp": "^2.0",
+        "laravel/framework": "5.8.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.0",
+        "friendsofphp/php-cs-fixer": "^2.4",
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softonic\\AmqpConsumer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Softonic\\AmqpConsumer\\": "tests/"
+        }
+    },
+    "scripts": {
+        "tests": "phpunit --coverage-text; php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
+        "phpunit": "phpunit --coverage-text",
+        "phpcs": "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
+        "fix-cs": "php-cs-fixer fix -v --diff --allow-risky=yes;"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Softonic\\AmqpConsumer\\ServiceProvider"
+            ]
+        }
+    }
+}
+
