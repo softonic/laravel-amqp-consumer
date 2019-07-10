@@ -50,5 +50,7 @@ class ServiceProvider extends LaravelServiceProvider
                 config('amqp-consumer')['message_handlers']
             );
         });
+
+        $this->commands([AmqpListener::class]);
     }
 }
