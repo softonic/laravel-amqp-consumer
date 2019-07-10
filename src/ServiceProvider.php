@@ -2,6 +2,7 @@
 
 namespace Softonic\AmqpConsumer;
 
+use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider
