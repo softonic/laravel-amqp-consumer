@@ -18,6 +18,24 @@ Via composer:
 composer require softonic/laravel-amqp-consumer
 ```
 
+**IMPORTANT**
+Until [queue multibinding PR](https://github.com/bschmitt/laravel-amqp/pull/70) will be included in the official repository,
+you will need to add this fragment to your composer.json
+
+```json
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/softonic/laravel-amqp.git"
+    }
+  ],
+  "require": {
+      "bschmitt/laravel-amqp": "2.0.7.1"
+  }
+}
+```
+
 Documentation
 -------
 
