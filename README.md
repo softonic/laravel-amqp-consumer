@@ -7,6 +7,8 @@ Laravel Amqp Consumer
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/softonic/laravel-amqp-consumer.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/laravel-amqp-consumer/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/softonic/laravel-amqp-consumer.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/laravel-amqp-consumer)
 [![Total Downloads](https://img.shields.io/packagist/dt/softonic/laravel-amqp-consumer.svg?style=flat-square)](https://packagist.org/packages/softonic/laravel-amqp-consumer)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/softonic/laravel-amqp-consumer.svg?style=flat-square)](http://isitmaintained.com/project/softonic/laravel-amqp-consumer "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/softonic/laravel-amqp-consumer.svg?style=flat-square)](http://isitmaintained.com/project/softonic/laravel-amqp-consumer "Percentage of issues still open")
 
 Laravel package to handle the consumption of AMQP messages.
 
