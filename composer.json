@@ -9,15 +9,15 @@
         "issues": "https://github.com/softonic/laravel-amqp-consumer/issues"
     },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "bschmitt/laravel-amqp": "^2.0",
-        "laravel/framework": "5.8.*"
+        "laravel/framework": "^5.8 || ^6.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
-        "phpunit/phpunit": "^7.0",
+        "phpunit/phpunit": "^8.0",
         "friendsofphp/php-cs-fixer": "^2.4",
-        "orchestra/testbench": "^3.8"
+        "orchestra/testbench": "^4.0"
     },
     "autoload": {
         "psr-4": {
