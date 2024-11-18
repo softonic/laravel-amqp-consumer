@@ -1,3 +1,9 @@
+# ⚠️ Important Notice: Library Deprecated ⚠️
+
+This library, **Laravel AMQP Consumer**, has been **deprecated** and replaced by [softonic/laravel-queue-job](https://github.com/softonic/laravel-queue-job). As a result, this package is no longer maintained. Please consider migrating to the new library for continued support and updates.
+
+---
+
 Laravel Amqp Consumer
 ====================================
 
